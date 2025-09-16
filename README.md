@@ -5,7 +5,7 @@ EduProctor LMS
 
 Repository name: eduproctor-lms
 
-🏗 Features (MVP – Minimum Viable Product)
+Features (MVP – Minimum Viable Product)
 
 LMS Core
 
@@ -43,7 +43,7 @@ Proctoring violation logs
 
 Export reports (CSV, PDF)
 
-🔹 Tech Stack (Suggested)
+ Tech Stack (Suggested)
 
 Frontend (Web): React.js (clean UI for students & instructors)
 
@@ -58,3 +58,19 @@ OpenCV / Mediapipe (for face & gaze detection)
 TensorFlow.js or PyTorch (basic ML models)
 
 WebRTC (real-time webcam/audio streaming)
+
+
+eduproctor-lms/
+│── README.md
+│── LICENSE
+│── backend/            # API & LMS logic (Django/Node)
+│   └── exams/
+│   └── courses/
+│   └── proctoring/
+│── frontend/           # React.js app
+│   └── src/
+│── ai-proctor/         # AI models & scripts
+│   └── face_detection.py
+│   └── sound_monitor.py
+│── docs/               # Documentation
+│── tests/              # Unit tests
